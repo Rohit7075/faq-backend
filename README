@@ -1,0 +1,91 @@
+# FAQ Backend System
+
+This is a **backend API** for managing FAQs with multilingual support.  
+It allows users to create, retrieve, update, and delete FAQs while providing translations in different languages.  
+The system uses **Node.js, Express.js, MongoDB, Redis, and Google Translate API**.  
+
+---
+
+## 🚀 Features  
+
+✅ Create, Read, Update, and Delete (CRUD) FAQs  
+✅ Multilingual support (English, Hindi, Bengali)  
+✅ Caching with Redis for better performance  
+✅ WYSIWYG Editor support for rich-text answers  
+✅ REST API with Express.js  
+
+---
+
+## 🛠️ Installation Steps  
+
+### 🔹 **1. Clone the Repository**  
+```bash
+git clone https://github.com/yourusername/faq-backend.git
+cd faq-backend
+
+ 🔹 2. Install Dependencies
+npm install
+
+  🔹 3. Set Up Environment Variables
+PORT=3000
+MONGO_URI=mongodb+srv://rohit1osc:0VuPaBi3Ti4MMChd@cluster0.fgmzs.mongodb.net/
+REDIS_HOST=localhost
+REDIS_PORT=6379
+GOOGLE_TRANSLATE_API_KEY=your_google_translate_api_key
+
+🔹 4. Start the Server
+npm start
+
+
+
+📌 API Usage Examples
+🔹 1. Get All FAQs
+GET http://localhost:3000/api/faqs
+🔹 2. Add a New FAQ
+POST http://localhost:3000/api/faqs
+Request Body (JSON)
+{
+  "question": "What is Node.js?",
+  "answer": "Node.js is a JavaScript runtime built on Chrome's V8 engine."
+}
+🔹 3. Update an FAQ
+PUT http://localhost:3000/api/faqs/:id
+Request Body (JSON)
+{
+  "question": "What is Express.js?",
+  "answer": "Express.js is a web application framework for Node.js."
+}
+🔹 4. Delete an FAQ
+DELETE http://localhost:3000/api/faqs/:id
+
+
+
+📜 Contribution Guidelines
+We welcome contributions! Follow these steps:
+1.Fork the Repository
+2.Create a new branch:
+git checkout -b feat/new-feature
+3.Make changes and commit
+git commit -m "feat: Add new feature"
+4.Push to GitHub
+git push origin feat/new-feature
+
+
+
+
+🛠️ Tech Stack
+Node.js - Backend
+Express.js - Framework
+MongoDB - Database
+Redis - Caching
+Google Translate API - Translation
+EJS - View Rendering
+
+
+📄 License
+This project is open-source and available under the MIT License.
+
+📞 Contact
+If you have any questions, reach out to:
+📧 Email: rohitd7458@gmail.com
+💬 GitHub: https://github.com/rohit7075
