@@ -20,7 +20,7 @@ The system uses **Node.js, Express.js, MongoDB, Redis, and Google Translate API*
 
 ### 🔹 **1. Clone the Repository**  
 ```bash
-git clone https://github.com/yourusername/faq-backend.git
+git clone https://github.com/Rohit7075/faq-backend.git
 cd faq-backend
 
  🔹 2. Install Dependencies
